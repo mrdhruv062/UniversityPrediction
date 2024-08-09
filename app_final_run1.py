@@ -36,5 +36,5 @@ if st.button("Sales Prediction"):
     result= clf.predict(np.array([[GRE,TOEFL,University,SOP,LOR,CGPA,Research]]))
     st.text(result[0])
     
-st.markdown("Developed  at Madhu Mishra")
+st.markdown("Developed  at Dhruv Mistry")
                   
